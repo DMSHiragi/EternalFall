@@ -3,13 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta content="width=device-width, initial-scale=1" name="viewport">
-<title>Eternal Draft 8</title>
+<title>LAUNCHME</title>
 <style title="Twine CSS">@keyframes appear{0%{opacity:0}to{opacity:1}}@keyframes fade-in-out{0%,to{opacity:0}50%{opacity:1}}@keyframes rumble{25%{top:-0.1em}75%{top:0.1em}0%,to{top:0px}}@keyframes shudder{25%{left:0.1em}75%{left:-0.1em}0%,to{left:0px}}@keyframes buoy{25%{top:0.25em}75%{top:-0.25em}0%,to{top:0px}}@keyframes sway{25%{left:0.25em}75%{left:-0.25em}0%,to{left:0px}}@keyframes pulse{0%{transform:scale(0, 0)}20%{transform:scale(1.2, 1.2)}40%{transform:scale(0.9, 0.9)}60%{transform:scale(1.05, 1.05)}80%{transform:scale(0.925, 0.925)}to{transform:scale(1, 1)}}@keyframes zoom-in{0%{transform:scale(0, 0)}to{transform:scale(1, 1)}}@keyframes shudder-in{0%, to{transform:translateX(0em)}5%, 25%, 45%{transform:translateX(-1em)}15%, 35%, 55%{transform:translateX(1em)}65%{transform:translateX(-0.6em)}75%{transform:translateX(0.6em)}85%{transform:translateX(-0.2em)}95%{transform:translateX(0.2em)}}@keyframes rumble-in{0%, to{transform:translateY(0em)}5%, 25%, 45%{transform:translateY(-1em)}15%, 35%, 55%{transform:translateY(1em)}65%{transform:translateY(-0.6em)}75%{transform:translateY(0.6em)}85%{transform:translateY(-0.2em)}95%{transform:translateY(0.2em)}}@keyframes fidget{0%, 8.1%, 82.1%, 31.1%, 38.1%, 44.1%, 40.1%, 47.1%, 74.1%, 16.1%, 27.1%, 72.1%, 24.1%, 95.1%, 6.1%, 36.1%, 20.1%, 4.1%, 91.1%, 14.1%, 87.1%, to{left:0px;top:0px}8%, 82%, 31%, 38%, 44%{left:-1px}40%, 47%, 74%, 16%, 27%{left:1px}72%, 24%, 95%, 6%, 36%{top:-1px}20%, 4%, 91%, 14%, 87%{top:1px}}@keyframes slide-right{0%{transform:translateX(-100vw)}}@keyframes slide-left{0%{transform:translateX(100vw)}}@keyframes slide-up{0%{transform:translateY(100vh)}}@keyframes slide-down{0%{transform:translateY(-100vh)}}@keyframes fade-right{0%{opacity:0;transform:translateX(-1em)}to{opacity:1}}@keyframes fade-left{0%{opacity:0;transform:translateX(1em)}to{opacity:1}}@keyframes fade-up{0%{opacity:0;transform:translateY(1em)}to{opacity:1}}@keyframes fade-down{0%{opacity:0;transform:translateY(-1em)}to{opacity:1}}@keyframes flicker{0%,29%,31%,63%,65%,77%,79%,86%,88%,91%,93%{opacity:0}30%{opacity:0.2}64%{opacity:0.4}78%{opacity:0.6}87%{opacity:0.8}92%, to{opacity:1}}@keyframes blur{0%{filter:blur(2rem);opacity:0}25%{opacity:1}to{filter:blur(0rem);opacity:1}}.dom-debug-mode tw-story,.dom-debug-mode tw-passage,.dom-debug-mode tw-sidebar,.dom-debug-mode tw-include,.dom-debug-mode tw-hook,.dom-debug-mode tw-expression,.dom-debug-mode tw-link,.dom-debug-mode tw-dialog,.dom-debug-mode tw-columns,.dom-debug-mode tw-column,.dom-debug-mode tw-align{outline:1px solid #f5a3da;min-height:32px;display:block !important}.dom-debug-mode tw-story::before,.dom-debug-mode tw-passage::before,.dom-debug-mode tw-sidebar::before,.dom-debug-mode tw-include::before,.dom-debug-mode tw-hook::before,.dom-debug-mode tw-expression::before,.dom-debug-mode tw-link::before,.dom-debug-mode tw-dialog::before,.dom-debug-mode tw-columns::before,.dom-debug-mode tw-column::before,.dom-debug-mode tw-align::before{position:absolute;top:0;left:0;height:16px;background-color:#f5a3da;color:black;font-size:16px;font-weight:normal;font-style:normal;font-family:monospace;display:inline-block;line-height:100%;white-space:pre;z-index:999997}.dom-debug-mode tw-story:hover,.dom-debug-mode tw-passage:hover,.dom-debug-mode tw-sidebar:hover,.dom-debug-mode tw-include:hover,.dom-debug-mode tw-hook:hover,.dom-debug-mode tw-expression:hover,.dom-debug-mode tw-link:hover,.dom-debug-mode tw-dialog:hover,.dom-debug-mode tw-columns:hover,.dom-debug-mode tw-column:hover,.dom-debug-mode tw-align:hover{outline:1px solid #fc9}.dom-debug-mode tw-story:hover::before,.dom-debug-mode tw-passage:hover::before,.dom-debug-mode tw-sidebar:hover::before,.dom-debug-mode tw-include:hover::before,.dom-debug-mode tw-hook:hover::before,.dom-debug-mode tw-expression:hover::before,.dom-debug-mode tw-link:hover::before,.dom-debug-mode tw-dialog:hover::before,.dom-debug-mode tw-columns:hover::before,.dom-debug-mode tw-column:hover::before,.dom-debug-mode tw-align:hover::before{background-color:#fc9;transition:background-color 1s}.dom-debug-mode tw-passage,.dom-debug-mode tw-include,.dom-debug-mode tw-hook,.dom-debug-mode tw-expression,.dom-debug-mode tw-link,.dom-debug-mode tw-dialog,.dom-debug-mode tw-columns,.dom-debug-mode tw-column,.dom-debug-mode tw-align{padding:1em;margin:0}.dom-debug-mode tw-story::before{content:'<tw-story tags="' attr(tags) '">'}.dom-debug-mode tw-passage::before{top:-16px;content:'<tw-passage tags="' attr(tags) '">'}.dom-debug-mode tw-sidebar::before{top:-16px;content:"<tw-sidebar>"}.dom-debug-mode tw-hook::before{content:'<tw-hook name="' attr(name) '">'}.dom-debug-mode tw-expression::before{content:'<tw-expression name="' attr(name) '">'}.dom-debug-mode tw-link::before{content:'<tw-link name="' attr(name) '">'}.dom-debug-mode tw-dialog::before{content:"<tw-dialog>"}.dom-debug-mode tw-columns::before{content:"<tw-columns>"}.dom-debug-mode tw-column::before{content:"<tw-column>"}.dom-debug-mode tw-align::before{content:"<tw-align>"}.dom-debug-mode tw-include::before{content:'<tw-include type="' attr(type) '" name="' attr(name) '">'}.debug-mode tw-expression{display:inline-block !important}.debug-mode tw-expression[type=variable]::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"$" attr(name)}.debug-mode tw-expression[type=tempVariable]::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"_" attr(name)}.debug-mode tw-expression[return=boolean]{background-color:rgba(179,179,179,0.2)}.debug-mode tw-expression[return=array]{background-color:rgba(255,102,102,0.2)}.debug-mode tw-expression[return=dataset]{background-color:rgba(255,128,0,0.2)}.debug-mode tw-expression[return=number]{background-color:rgba(255,179,102,0.2)}.debug-mode tw-expression[return=datamap]{background-color:rgba(255,255,102,0.2)}.debug-mode tw-expression[return=changer]{background-color:rgba(179,255,102,0.2)}.debug-mode tw-expression[return=lambda]{background-color:rgba(102,255,102,0.2)}.debug-mode tw-expression[return=hookname]{background-color:rgba(102,255,204,0.2)}.debug-mode tw-expression[return=string]{background-color:rgba(102,255,255,0.2)}.debug-mode tw-expression[return=datatype]{background-color:rgba(102,153,255,0.2)}.debug-mode tw-expression[return=gradient],.debug-mode tw-expression[return=colour]{background-color:rgba(204,102,255,0.2)}.debug-mode tw-expression[return=instant],.debug-mode tw-expression[return=macro]{background-color:rgba(240,117,199,0.2)}.debug-mode tw-expression[return=command]{background-color:rgba(153,153,255,0.2)}.debug-mode tw-expression.false{background-color:rgba(255,0,0,0.2) !important}.debug-mode tw-expression[type=macro]::before{content:"(" attr(name) ":)";padding:0 0.5rem;font-size:1rem;vertical-align:middle;line-height:normal;background-color:inherit;border:1px solid rgba(255,255,255,0.5)}.debug-mode tw-hook{background-color:rgba(0,85,255,0.1) !important}.debug-mode tw-hook::before{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"["}.debug-mode tw-hook::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"]"}.debug-mode tw-hook[name]::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"]<" attr(name) "|"}.debug-mode tw-pseudo-hook{background-color:rgba(255,170,0,0.1) !important}.debug-mode tw-collapsed::before{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"{"}.debug-mode tw-collapsed::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"}"}.debug-mode tw-verbatim::before,.debug-mode tw-verbatim::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"`"}.debug-mode tw-align[style*="text-align: center"]{background:linear-gradient(to right, rgba(255,204,189,0) 0%, rgba(255,204,189,0.25) 50%, rgba(255,204,189,0) 100%)}.debug-mode tw-align[style*="text-align: left"]{background:linear-gradient(to right, rgba(255,204,189,0.25) 0%, rgba(255,204,189,0) 100%)}.debug-mode tw-align[style*="text-align: right"]{background:linear-gradient(to right, rgba(255,204,189,0) 0%, rgba(255,204,189,0.25) 100%)}.debug-mode tw-column{background-color:rgba(189,228,255,0.2)}.debug-mode tw-enchantment{animation:enchantment 0.5s infinite;border:1px solid}.debug-mode tw-link::after,.debug-mode tw-broken-link::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:attr(passage-name)}.debug-mode tw-include{background-color:rgba(204,128,51,0.1)}.debug-mode tw-include::before{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:attr(type) ' "' attr(name) '"'}@keyframes enchantment{0%,to{border-color:#ffb366}50%{border-color:#6fc}}tw-debugger{position:fixed;box-sizing:border-box;bottom:0;right:0;z-index:999999;min-width:10em;min-height:1em;padding:0em 0.5em 0.5em 1em;font-size:1.25em;font-family:sans-serif;color:#000;border-left:solid #000 2px;border-top:solid #000 2px;border-top-left-radius:.5em;background:#fff;opacity:1}tw-debugger select{margin-right:1em;width:12em}tw-debugger button{border-radius:3px;border:solid #999 1px;margin:auto 4px;background-color:#fff;font-size:inherit;color:#000}tw-debugger button.enabled{background-color:#eee;box-shadow:inset #ddd 3px 5px 0.5em}tw-debugger .panel{display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;position:absolute;bottom:100%;left:-2px;right:0;padding:1em;max-height:40vh;overflow-y:scroll;overflow-x:hidden;z-index:999998;background:#fff;border:inherit;border-bottom:solid #999 2px;border-top-left-radius:.5em;border-bottom-left-radius:.5em;font-size:0.8em}tw-debugger .panel:empty,tw-debugger .panel[hidden]{display:none}tw-debugger .panel-source,tw-debugger .panel-row-source{font-family:monospace;overflow-x:scroll;white-space:pre;-ms-flex-preferred-size:100%;flex-basis:100%}tw-debugger .panel-row-source{margin:5px 0}tw-debugger .panel-rows{width:100%;overflow-x:scroll}tw-debugger .panel-rows>*{display:table-row}tw-debugger .panel-rows>div:nth-of-type(2n){background:#EEE}tw-debugger .panel-row-buttons{text-align:right}tw-debugger .panel-variables .panel-rows:empty::before{content:"~ No variables ~";font-style:italic;color:#888;text-align:center}tw-debugger .panel-enchantments .panel-rows:empty::before{content:"~ No enchantments ~";font-style:italic;color:#888;text-align:center}tw-debugger .panel-errors .panel-rows:empty::before{content:"~ No errors... for now. ~";font-style:italic;color:#888;text-align:center}tw-debugger .panel-rows:empty+.panel-variables-bottom{display:none}tw-debugger .panel-storylets:not(.panel-exclusive) .storylet-exclusive,tw-debugger .panel-storylets:not(.panel-urgent) .storylet-urgent{display:none}tw-debugger .panel-variables-bottom{padding-top:5px}tw-debugger .enchantment-row{min-height:1.5em}tw-debugger .variable-path{opacity:0.4}tw-debugger .temporary-variable-scope,tw-debugger .enchantment-local{font-family:sans-serif;font-weight:normal;opacity:0.8;font-size:0.75em}tw-debugger .temporary-variable-scope:not(:empty)::before,tw-debugger .enchantment-local:not(:empty)::before{content:" in "}tw-debugger .variable-name,tw-debugger .enchantment-name{font-family:monospace;font-weight:bold}tw-debugger .variable-type{color:#444;font-weight:normal;text-overflow:ellipsis;overflow:hidden;max-width:10em}tw-debugger .error-row{display:table-row;background-color:rgba(230,101,204,0.3)}tw-debugger .error-row:nth-of-type(2n){background-color:rgba(237,145,219,0.3)}tw-debugger .error-row>*{display:table-cell;padding:0.25em 0.5em}tw-debugger .error-row .error-message{cursor:help}tw-debugger .error-row .error-passage{color:#444}tw-debugger .storylet-row{background-color:rgba(201,233,222,0.3)}tw-debugger .storylet-row:nth-child(2n){background-color:rgba(128,203,178,0.3)}tw-debugger .storylet-row.storylet-closed{font-style:italic;opacity:0.4;background-color:rgba(217,217,217,0.3)}tw-debugger .storylet-row.storylet-closed:nth-child(2n){background-color:rgba(166,166,166,0.3)}.storylet-error tw-debugger .storylet-row{background-color:rgba(230,101,204,0.3)}.storylet-error tw-debugger .storylet-row:nth-child(2n){background-color:rgba(237,145,219,0.3)}tw-debugger .storylet-row .storylet-name,tw-debugger .storylet-row .storylet-value{display:inline-block;width:50%}tw-debugger .tabs{padding-bottom:0.5em}tw-debugger .tab{border-radius:0px 0px 0.5em 0.5em;border-top:none}tw-debugger .resizer{position:absolute;height:3em;border-left:2px solid #ccc;border-right:2px solid #ccc;top:10px;left:4px;width:8px;cursor:ew-resize}tw-dialog{z-index:999997;border:#fff solid 2px;padding:2em;color:#fff;background-color:#000;display:block}@media (min-width: 576px){tw-dialog{max-width:50vw}}tw-dialog input[type=text]{font-size:inherit;width:100%}tw-dialog-links{text-align:right;display:-ms-flexbox;display:flex;-ms-flex-pack:end;justify-content:flex-end}tw-backdrop{z-index:999996;position:fixed;top:0;left:0;right:0;bottom:0;background-color:rgba(0,0,0,0.8);display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;-ms-flex-pack:center;justify-content:center}tw-backdrop ~ tw-backdrop{display:none}tw-link,.link,tw-icon,.enchantment-clickblock{cursor:pointer}tw-link,.enchantment-link{color:#4169E1;font-weight:bold;text-decoration:none;transition:color 0.2s ease-in-out}tw-passage [style^="color"] tw-link:not(:hover),tw-passage [style*=" color"] tw-link:not(:hover),tw-passage [style^="color"][hover="true"] tw-link:hover,tw-passage [style*=" color"][hover="true"] tw-link:hover,tw-passage [style^="color"] .enchantment-link:not(:hover),tw-passage [style*=" color"] .enchantment-link:not(:hover),tw-passage [style^="color"][hover="true"] .enchantment-link:hover,tw-passage [style*=" color"][hover="true"] .enchantment-link:hover{color:inherit}tw-link:hover,.enchantment-link:hover{color:#00bfff}tw-link:active,.enchantment-link:active{color:#DD4B39}.visited{color:#6941e1}tw-passage [style^="color"] .visited:not(:hover),tw-passage [style*=" color"] .visited:not(:hover),tw-passage [style^="color"][hover="true"] .visited:hover,tw-passage [style*=" color"][hover="true"] .visited:hover{color:inherit}.visited:hover{color:#E3E}tw-broken-link{color:#993333;border-bottom:2px solid #993333;cursor:not-allowed}tw-passage [style^="color"] tw-broken-link:not(:hover),tw-passage [style*=" color"] tw-broken-link:not(:hover),tw-passage [style^="color"][hover="true"] tw-broken-link:hover,tw-passage [style*=" color"][hover="true"] tw-broken-link:hover{color:inherit}.enchantment-mouseover{border-bottom:2px dashed #999}.enchantment-mouseout{border:rgba(64,149,191,0.6) 1px solid}.enchantment-mouseout:hover{background-color:rgba(175,197,207,0.75);border:transparent 1px solid;border-radius:0.2em}.enchantment-clickblock{width:100%;height:100%;display:block}.enchantment-clickblock>:not(tw-enchantment)::after{content:"";width:100%;height:100%;top:0;left:0;display:block;box-sizing:border-box;position:absolute;pointer-events:none;color:rgba(65,105,225,0.5);transition:color 0.2s ease-in-out}.enchantment-clickblock>:not(tw-enchantment):hover::after{color:rgba(0,191,255,0.5)}.enchantment-clickblock>:not(tw-enchantment):active::after{color:rgba(222,78,59,0.5)}.enchantment-clickblock>:not(tw-enchantment)::after{box-shadow:inset 0 0 0 0.5vmax}.enchantment-clickblock>tw-passage::after,.enchantment-clickblock>tw-sidebar::after{box-shadow:0 0 0 0.5vmax}.enchantment-mouseoverblock>:not(tw-enchantment)::after{content:"";width:100%;height:100%;top:0;left:0;display:block;box-sizing:border-box;position:absolute;pointer-events:none;border:2px dashed #999}.enchantment-mouseoutblock>:not(tw-enchantment)::after{content:"";width:100%;height:100%;top:0;left:0;display:block;box-sizing:border-box;position:absolute;pointer-events:none;border:rgba(64,149,191,0.6) 2px solid}.enchantment-mouseoutblock:hover>:not(tw-enchantment)::after{content:"";width:100%;height:100%;top:0;left:0;display:block;box-sizing:border-box;position:absolute;pointer-events:none;background-color:rgba(175,197,207,0.75);border:transparent 2px solid;border-radius:0.2em}tw-link.enchantment-button,.enchantment-link.enchantment-button,.enchantment-button:not(.enchantment-link) tw-link,.enchantment-button:not(.enchantment-link) .enchantment-link{border-radius:16px;border-style:solid;border-width:2px;text-align:center;padding:0px 8px;display:block}tw-dialog-links{padding-top:1.5em}tw-dialog-links tw-link{border-radius:16px;border-style:solid;border-width:2px;text-align:center;padding:0px 8px;display:block;display:inline-block}html{margin:0;height:100%;overflow-x:hidden}*,:before,:after{position:relative;box-sizing:inherit}body{margin:0;height:100%}tw-storydata{display:none}tw-story{display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;font:100% Georgia, serif;box-sizing:border-box;width:100%;min-height:100%;font-size:1.5em;line-height:1.5em;padding:5% 5%;overflow:hidden;background-color:#000;color:#fff}tw-story [style*=content-box] *{box-sizing:border-box}@media (min-width: 576px){tw-story{padding:5% 20%}}tw-story tw-consecutive-br{display:block;height:1.6ex;visibility:hidden}tw-story select{background-color:transparent;font:inherit;border-style:solid;padding:2px}tw-story select:not([disabled]){color:inherit}tw-story textarea{resize:none;background-color:transparent;font:inherit;color:inherit;border-style:none;padding:2px}tw-story input[type=checkbox]{transform:scale(1.5);margin:0 0.5em}tw-story tw-noscript{animation:appear 0.8s}tw-passage{display:block}tw-sidebar{text-align:center;display:-ms-flexbox;display:flex;-ms-flex-pack:justify;justify-content:space-between}@media (min-width: 576px){tw-sidebar{left:-5em;width:3em;position:absolute;-ms-flex-direction:column;flex-direction:column}tw-enchantment[style*="width"]>tw-sidebar{width:inherit}}tw-icon{display:inline-block;margin:0.5em 0;font-size:66px;font-family:"Verdana",sans-serif}tw-icon[alt]{opacity:0.2}tw-icon[alt]:hover{opacity:0.4}tw-icon[data-label]::after{font-weight:bold;content:attr(data-label);font-size:20px;bottom:-20px;left:-50%;white-space:nowrap}tw-meter{display:block}tw-hook:empty,tw-expression:empty{display:none}tw-error{display:inline-block;border-radius:0.2em;padding:0.2em;font-size:1rem;cursor:help;white-space:pre-wrap}tw-error.error{background-color:rgba(223,58,190,0.6);color:#fff}tw-error.warning{background-color:rgba(223,140,58,0.6);color:#fff;display:none}.debug-mode tw-error.warning{display:inline}tw-error-explanation{display:block;font-size:0.8rem;line-height:1rem}tw-open-button,tw-folddown{cursor:pointer;line-height:0em;border-radius:1px;border:1px solid black;font-size:0.8rem;margin:0 0.4rem;padding:2px;white-space:pre}tw-folddown::after{content:"\25b6"}tw-folddown.open::after{content:"\25bc"}tw-open-button::after{content:"Open"}tw-notifier{border-radius:0.2em;padding:0.2em;font-size:1rem;background-color:rgba(223,182,58,0.4);display:none}.debug-mode tw-notifier{display:inline}tw-notifier::before{content:attr(message)}tw-colour{border:1px solid black;display:inline-block;width:1em;height:1em}tw-enchantment:empty{display:none}h1{font-size:3em}h2{font-size:2.25em}h3{font-size:1.75em}h1,h2,h3,h4,h5,h6{line-height:1em;margin:0.3em 0 0.6em 0}pre{font-size:1rem;line-height:initial}small{font-size:70%}big{font-size:120%}mark{color:rgba(0,0,0,0.6);background-color:#ff9}ins{color:rgba(0,0,0,0.6);background-color:rgba(255,242,204,0.5);border-radius:0.5em;box-shadow:0em 0em 0.2em #ffe699;text-decoration:none}center{text-align:center;margin:0 auto;width:60%}blink{text-decoration:none;animation:fade-in-out 1s steps(1, end) infinite alternate}tw-align{display:block}tw-columns{display:-ms-flexbox;display:flex;-ms-flex-direction:row;flex-direction:row;-ms-flex-pack:justify;justify-content:space-between}.transition-in{animation:appear 0ms step-start}.transition-out{animation:appear 0ms step-end}[data-t8n^=dissolve].transition-in,[data-t8n=fade].transition-in{animation:appear .8s}[data-t8n^=dissolve].transition-out,[data-t8n=fade].transition-out{animation:appear .8s reverse}[data-t8n^=shudder].transition-in{display:inline-block !important;animation:shudder-in .8s}[data-t8n^=shudder].transition-out{display:inline-block !important;animation:shudder-in .8s reverse}[data-t8n^=rumble].transition-in{display:inline-block !important;animation:rumble-in .8s}[data-t8n^=rumble].transition-out{display:inline-block !important;animation:rumble-in .8s reverse}[data-t8n^=pulse].transition-in{animation:pulse .8s;display:inline-block !important}[data-t8n^=pulse].transition-out{animation:pulse .8s reverse;display:inline-block !important}[data-t8n^=zoom].transition-in{animation:zoom-in .8s;display:inline-block !important}[data-t8n^=zoom].transition-out{animation:zoom-in .8s reverse;display:inline-block !important}[data-t8n^=blur].transition-in{animation:blur .8s;display:inline-block !important}[data-t8n^=blur].transition-out{animation:blur .8s reverse;display:inline-block !important}[data-t8n^=slideleft].transition-in{animation:slide-left .8s;display:inline-block !important}[data-t8n^=slideleft].transition-out{animation:slide-right .8s reverse;display:inline-block !important}[data-t8n^=slideright].transition-in{animation:slide-right .8s;display:inline-block !important}[data-t8n^=slideright].transition-out{animation:slide-left .8s reverse;display:inline-block !important}[data-t8n^=slideup].transition-in{animation:slide-up .8s;display:inline-block !important}[data-t8n^=slideup].transition-out{animation:slide-down .8s reverse;display:inline-block !important}[data-t8n^=slidedown].transition-in{animation:slide-down .8s;display:inline-block !important}[data-t8n^=slidedown].transition-out{animation:slide-up .8s reverse;display:inline-block !important}[data-t8n^=fadeleft].transition-in{animation:fade-left .8s;display:inline-block !important}[data-t8n^=fadeleft].transition-out{animation:fade-right .8s reverse;display:inline-block !important}[data-t8n^=faderight].transition-in{animation:fade-right .8s;display:inline-block !important}[data-t8n^=faderight].transition-out{animation:fade-left .8s reverse;display:inline-block !important}[data-t8n^=fadeup].transition-in{animation:fade-up .8s;display:inline-block !important}[data-t8n^=fadeup].transition-out{animation:fade-down .8s reverse;display:inline-block !important}[data-t8n^=fadedown].transition-in{animation:fade-down .8s;display:inline-block !important}[data-t8n^=fadedown].transition-out{animation:fade-up .8s reverse;display:inline-block !important}[data-t8n^=flicker].transition-in{animation:flicker .8s}[data-t8n^=flicker].transition-out{animation:flicker .8s reverse}
 </style>
 </head>
 <body>
-<tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play Eternal Draft 8.</tw-noscript></noscript></tw-story>
-<tw-storydata name="Eternal Draft 8" startnode="1" creator="Twine" creator-version="2.3.16" ifid="B01D3D9A-36A3-4E0F-98B8-4EA3D509822D" zoom="1" format="Harlowe" format-version="3.2.3" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">@import url('https://fonts.googleapis.com/css2?family=Actor&display=swap');
+<tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play LAUNCHME.</tw-noscript></noscript></tw-story>
+<tw-storydata name="LAUNCHME" startnode="1" creator="Twine" creator-version="2.3.16" ifid="B01D3D9A-36A3-4E0F-98B8-4EA3D509822D" zoom="1" format="Harlowe" format-version="3.2.3" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">@import url('https://fonts.googleapis.com/css2?family=Actor&display=swap');
 
 
 tw-passage{
@@ -124,7 +124,7 @@ As the colours came to settle back into their places, an unfamiliar blue began t
  
 “R..uz….C…ron”
  
-A voice. The blue was a voice. While I couldn’t quite make it out, the voice held a similar sense of familiarity to the cityscape and orb I had scene earlier. I knew it…but from where…?
+A voice. The blue was a voice. While I couldn’t quite make it out, the voice held a similar sense of familiarity to the cityscape and orb I had seen earlier. I knew it…but from where…?
  
 “Ryuz Choron!”
  
@@ -159,7 +159,7 @@ As the questions circled around the cyan in my mind, I slowly opened my mouth.
  
 I could see the woman visibly raise an eyebrow at my words, but I kept speaking.
  
-“Actually, I don’t even know who I really I am. I woke up earlier without my memory, and suddenly now I’m here being interrogated by you. I don’t even know how I got here! I mean, I teleported…I think? I wish I could give you answers, but believe me I don’t have them.”
+“Actually, I don’t even know who I really am. I woke up earlier without my memory, and suddenly now I’m here being interrogated by you. I don’t even know how I got here! I mean, I teleported…I think? I wish I could give you answers, but believe me I don’t have them.”
  
 The woman didn’t move, but I felt I could almost hear her scoff as she began to answer me.
  
@@ -191,17 +191,17 @@ My voice dropped as I said the last few words, but I kept my gaze locked with th
  
 “Excuse me?” The woman immediately responded. Despite the annoyance in her voice, I continued.
  
-“I think your witness testimony is faulty. I’ve don’t know anything about the crimes you described, and I’ve never heard of Hugh Gaishu either. In fact, I haven’t even left my home for the past few days so it would be impossible for your witness to place me at the scene.”
+“I think your witness testimony is faulty. I don’t know anything about the crimes you described, and I’ve never heard of Hugh Gaishu either. In fact, I haven’t even left my home for the past few days so it would be impossible for your witness to place me at the scene.”
  
 I wasn’t sure why I lied about that last part, but it felt necessary. It was clear that the situation I was in was bad, and for all I know I very much could be the person the police are looking for. If that was the case, I needed to get out of this any way I could.
  
 As I was steeling my resolve to escape the situation, I could hear the woman audibly scoff.
  
-“Is that seriously your defense? We have an overwhelming pile of evidence that connects you to the scene of the murder. Even if the witness testimony was faulty that still doesn’t free you from the application.
+“Is that seriously your defense? We have an overwhelming pile of evidence that connects you to the scene of the murder. Even if the witness testimony was faulty that still doesn’t free you from the accusation.
  
 “Then the evidence must be faulty!” I sputtered. 
 
-The woman raised an eyebrow. Of course she would. Ther couldn’t have been a more blatant lie. I could feel her gaze become sharper as it examined me from top to bottom. It was as if her topaz eyes were piercing my body, probing it for the source of the lies I had told. Nevertheless, unable to back down I continued.
+The woman raised an eyebrow. Of course she would. There couldn’t have been a more blatant lie. I could feel her gaze become sharper as it examined me from top to bottom. It was as if her topaz eyes were piercing my body, probing it for the source of the lies I had told. Nevertheless, unable to back down I continued.
  
 “You said DNA evidence right? Well, I mean maybe the culprit brought my hair to the scene? Or copied my fingerprints somehow! Maybe they went through my trash and found nail clippings! I don’t know what you found but it definitely could have been forged!”
  
@@ -240,7 +240,7 @@ I could see the yellow eyes cast shadow once more as she finished her sentence. 
  
 “If you’re as innocent as you claim to be, and your memory truly is this unreliable, perhaps seeing the scene will jolt something. Regardless, I’m sure you’ll see things that I didn’t myself. You’re to accompany me to the scene and aid in our investigation, immediately.”
  
-I found in silence for a few moments.
+I was in silence for a few moments.
 “Is…that allowed?” I found myself asking. This was certainly a good deal for me compared to before, but it seemed rather sudden.
  
 “Under my jurisdiction, yes.” The woman answered. “Of course, I don’t imagine my superiors will be too happy about this, so we’ll make it quick. Come on, let’s go.”
@@ -290,7 +290,7 @@ Azura pondered the device for a few moments, before letting it fly though the ai
  
 “Why don’t you hold onto it then, you may remember something important.”
             
-With those words, Azura turned her focus back to the room, and resumed her investigation. Unsure of what to do myself, I gripped the device firmly as I stood back and watched. I was almost scared to look at the orb again, yet it still felt so comfortable to grip. Natural even. It was as if the pulsing glow of the orb was slowly settling in synch with my own pulse.
+With those words, Azura turned her focus back to the room, and resumed her investigation. Unsure of what to do myself, I gripped the device firmly as I stood back and watched. I was almost scared to look at the orb again, yet it still felt so comfortable to grip. Natural even. It was as if the pulsing glow of the orb was slowly settling in sync with my own pulse.
 Eventually, after a period of this strange sensation and silence, Azura stood up and turned her topaz eyes back to me.
 
 &lt;/div&gt;
@@ -331,7 +331,7 @@ Azura extended her arms forward to bring up several holographic displays, as she
  
 “You what?” I could hear the tension in Azura’s voice as she uttered those words.
  
-“I don’t want to!” I said with more convition. “Actually, I don’t need to. You found the man right? Then I’m cleared! There’s no need to for me to help you anymore!” 
+“I don’t want to!” I said with more conviction. “Actually, I don’t need to. You found the man right? Then I’m cleared! There’s no need to for me to help you anymore!” 
 I started to back away as I said those last few words. I wasn’t entirely sure what I was doing, but it felt right. It seemed irrational, but I knew in the back of my cyan-shrouded mind that giving chase to the culprit right now was a bad idea.
  
 “I…can’t believe you” Azura said as she let out a hearty sigh of disappointment. “In that case…”
@@ -387,14 +387,16 @@ I sprinted forward, closing the gap between Cecil and I one last time as I jumpe
 
 &lt;/div&gt;
 
- &lt;audio src=&quot;https://static.wixstatic.com/mp3/d2a61e_6faf7ddf74b6487cb3b29f3a3103eadf.m4a&quot; autoplay&gt;</tw-passagedata><tw-passagedata pid="13" name="Bad End (Blue)" tags="" position="701,1701" size="100,100">&lt;img class = &quot;img&quot; src=&quot;https://static.wixstatic.com/media/d2a61e_e1661a3e28ed407faf4a1bc8e6ad5ee2~mv2.png&quot; width=&quot;854px&quot; height=&quot;480px&quot;&gt;
+ &lt;audio src=&quot;https://static.wixstatic.com/mp3/d2a61e_6faf7ddf74b6487cb3b29f3a3103eadf.m4a&quot; autoplay&gt;</tw-passagedata><tw-passagedata pid="13" name="Bad End (Blue)" tags="" position="701,1701" size="100,100">&lt;img class = &quot;img&quot; src=&quot;https://static.wixstatic.com/media/d2a61e_cc88d1c3a8154cad989ae2b2b699004f~mv2.png&quot; width=&quot;854px&quot; height=&quot;480px&quot;&gt;
+
+[[Replay|Start Screen]] 
 
 &lt;div class=&quot;textbody&quot;&gt;
 “I got him!” I proclaimed as I leaped forward towards my target. 
  
 “Wait, Ryuz no!” Azura shouted to empty ears. By the time her words reached me I was already in the air. 
  
-With the one jump, I grew ever closer him, just one more step would have brought me to my goal. Just one more step. One more step…on the rooftop. The rooftop I never met. Finding myself nowhere near the landing spot I had imagined, I began to fall.
+With the one jump, I grew ever closer to him, just one more step would have brought me to my goal. Just one more step. One more step…on the rooftop. The rooftop I never met. Finding myself nowhere near the landing spot I had imagined, I began to fall.
  
 “Apologies!” I could hear my target exclaim from above. “That distance isn’t something you could cover with a jump. Well, at least not without supportive gear. Too bad for you!”
  
@@ -402,16 +404,14 @@ The last few words he uttered I couldn’t quite hear. By the time he had said t
 
 Pain. A sharp pain rang throughout my body from my chest. Perhaps I had fallen on to an antennae of some sort, or maybe a lightning rod. Either way, I couldn’t tell. The colours before me slowly began to fade, until eventually my own red blinded me.
 
-
-END.
 &lt;/div&gt;
 
- &lt;audio src=&quot;https://static.wixstatic.com/mp3/d2a61e_e3d4b432a2b94d0a8481d4abcb1fb2b0.m4a&quot; autoplay&gt;</tw-passagedata><tw-passagedata pid="14" name="Loop End (Blue)" tags="" position="501,1849" size="100,100">&lt;img class = &quot;img&quot; src=&quot;https://static.wixstatic.com/media/d2a61e_f852bb6839194ca1b73bec7a6c7ad604~mv2.png&quot; width=&quot;854px&quot; height=&quot;480px&quot;&gt;
+ &lt;audio src=&quot;https://static.wixstatic.com/mp3/d2a61e_e3d4b432a2b94d0a8481d4abcb1fb2b0.m4a&quot; autoplay&gt;</tw-passagedata><tw-passagedata pid="14" name="Loop End (Blue)" tags="" position="501,1849" size="100,100">&lt;img class = &quot;img&quot; src=&quot;https://static.wixstatic.com/media/d2a61e_e0e848b91e9a4ce89ca0afc2d88aaf7d~mv2.png&quot; width=&quot;854px&quot; height=&quot;480px&quot;&gt;
 
 [[Loop|B1]] 
 
 &lt;div class=&quot;textbody&quot;&gt;
-“You’re mine!” I proclaimed as I jumped forward, hand extended, ready to restrain the man I had been chasing. However, my hand met no such target. Out of corner my eye I could see a smirking Cecil who had gracefully turned himself to escape my grasp. The sight soon moved out of my vision though, as I found myself falling from the ground I had once been on.
+“You’re mine!” I proclaimed as I jumped forward, hand extended, ready to restrain the man I had been chasing. However, my hand met no such target. Out of the corner of my eye I could see a smirking Cecil who had gracefully turned himself to escape my grasp. The sight soon moved out of my vision though, as I found myself falling from the ground I had once been on.
  
 Further and further, I fell. Below me was the ever-growing grey of a lower rooftop. Turning my gaze back up, I could see the outline of Cecil’s black outfit, receding from the scene, Azura’s blue clothes standing still, as her topaz eyes failed to chase their target and found themselves on me. My own white clothes fluttered as they flew past the city lights, shining in their colour as I rapidly passed them.
  
@@ -428,15 +428,15 @@ Grey, black, white, yellow, blue, pink, purple. Eventually the colours began to 
 &lt;div class=&quot;textbody&quot;&gt;
 “I guess so!” I roared as I forced myself up.
 
-My bindings let out a crack as they tightened up against the table. It seemed like I was truly stuck, but I wasn’t going to give up here. It was obvious that the woman going to believe anything I said, so I needed to get out of here, fast.
+My bindings let out a crack as they tightened up against the table. It seemed like I was truly stuck, but I wasn’t going to give up here. It was obvious that the woman wasn&#39;t going to believe me, so I needed to get out of here, fast.
 
-I repeatedly brought myself up and down, tightening and cracking my electrical bindings as moved aggressively trying to break them.
+I repeatedly brought myself up and down, tightening and cracking my electrical bindings as I moved aggressively trying to break them.
  
 “Hey, calm down, there’s no need to-” As the woman spoke, she extended an arm forward towards me, away from the hologram control panel. Almost immediately, my gaze shifted to the device opposite her badge on her belt. Instinctively, I slammed my head onto her extended arm, forcing it onto the device. With a loud beep, I found myself free from my bindings to the table. While the handcuffs had not come off, it would have to do for now. I sprinted out of the door while the woman was still recoiling from the damage to her hand.
  
 “Emergency, code 5-3-1! Suspect on the run within building!” I could hear her shout from behind me, but by then I was already halfway down the hallway.
  
-As I ran through the police station, I found it’s halls to be strangely familiar, similar to the cityscape I had scene before. So did the device that I used to escape the interrogation room. Perhaps my lost memories had something to do with the police, and they were what was allowing me to take the route I was now, avoiding all possible contact with other police officers. If that was the case, I certainly needed to rely on them. I approached a two-way split in the hallway. Fighting past the cyan shrouding them, I could hear my memories telling me to go…
+As I ran through the police station, I found its halls to be strangely familiar, similar to the cityscape I had seen before. So did the device that I used to escape the interrogation room. Perhaps my lost memories had something to do with the police, and they were what was allowing me to take the route I was now, avoiding all possible contact with other police officers. If that was the case, I certainly needed to rely on them. I approached a two-way split in the hallway. Fighting past the cyan shrouding them, I could hear my memories telling me to go…
 
 &lt;/div&gt;
 
@@ -450,7 +450,7 @@ As I ran through the police station, I found it’s halls to be strangely famili
  
 I could see the woman visibly raise an eyebrow at my words, but I kept speaking.
  
-“Actually, I don’t even know who I really I am. I woke up earlier without my memory, and suddenly now I’m here being interrogated by you. I don’t even know how I got here! I mean, I teleported…I think? I wish I could give you answers, but believe me I don’t have them.”
+“Actually, I don’t even know who I really am. I woke up earlier without my memory, and suddenly now I’m here being interrogated by you. I don’t even know how I got here! I mean, I teleported…I think? I wish I could give you answers, but believe me I don’t have them.”
  
 The woman didn’t move, but I felt I could almost hear her scoff as she began to answer me.
  
@@ -472,22 +472,24 @@ My voice dropped as I said the last few words, but I kept my gaze locked with th
 
  &lt;audio src=&quot;https://static.wixstatic.com/mp3/d2a61e_b7f93fa3e65d45ceb82bf668eb21be03.m4a&quot; autoplay&gt;</tw-passagedata><tw-passagedata pid="17" name="R3" tags="" position="952,947" size="100,100">&lt;img class = &quot;img&quot; src=&quot;https://static.wixstatic.com/media/d2a61e_5da1f96c9c084c7cb32b852545a037bc~mv2.png&quot; width=&quot;854px&quot; height=&quot;480px&quot;&gt;
 
-[[Is something a matter? |B4]]
+[[Is something the matter? |B4]]
 &lt;br&gt;
 [[Nope! |R4]] 
 
 &lt;div class=&quot;textbody&quot;&gt;
 At least, I think that’s what my memories said.
 
-I made a sharp turn to the left and found short hallway with several doors on either side, which eventually lead to a dead end. Without thinking, I entered the first door I could reach and swiftly closed it. 
+I made a sharp turn to the left and found a short hallway with several doors on either side, which eventually led to a dead end. Without thinking, I entered the first door I could reach and swiftly closed it. 
  
-I stood still by the door for a few moments, listening for any possible pursuers. After confirming that none here nearby, I let out a sigh an began examining the room I was in. From what I could tell, it was an evidence room, with shelves filled with files, boxes, and various labeled objects. On one of the walls was a large pinboard with several pictures attached to it. Curious, I walked up to it, and found the words CASE HD-4: Murder of Hugh Gaishu written in big letters on the. It would seem that this was a working representation of the case I was being accused for.
+I stood still by the door for a few moments, listening for any possible pursuers. After confirming that none were nearby, I let out a sigh and began examining the room I was in. From what I could tell, it was an evidence room, with shelves filled with files, boxes, and various labeled objects. On one of the walls was a large pinboard with several pictures attached to it. Curious, I walked up to it, and found the words CASE HD-4: Murder of Hugh Gaishu written in big letters on the. It would seem that this was a working representation of the case I was being accused for.
 
 Intrigued, I took a closer look. The pictures were mostly of the crime scene, with supplementary images of evidence and text blurbs accompanying them. The more I investigated the board the more I found that the case seemed solid. All the evidence pointed undoubtedly to one person: me. Yet for whatever reason…the evidence didn’t feel right. I was once again met with a sense of familiarity, as cyan began to cloud my judgement once more. While not able to collect my thoughts, I heard the door open behind me. I swirled my head back to find the woman who was interrogating me standing there, eyes locked with mine. I was tempted to just break past her, but something was different about the look she was giving me compared to before. For the first time I felt I could see the shadow of doubt on her topaz eyes as she stared at me intently, unmoving. What was she thinking? Should I…say something?
 
 &lt;/div&gt;
 
- &lt;audio src=&quot;https://static.wixstatic.com/mp3/d2a61e_328ea642aa0a46acacc9a0688c674b6e.m4a&quot; autoplay&gt;</tw-passagedata><tw-passagedata pid="18" name="Bad End (Red-Arrested)" tags="" position="1127,945" size="100,100">&lt;img class = &quot;img&quot; src=&quot;https://static.wixstatic.com/media/d2a61e_e1661a3e28ed407faf4a1bc8e6ad5ee2~mv2.png&quot; width=&quot;854px&quot; height=&quot;480px&quot;&gt;
+ &lt;audio src=&quot;https://static.wixstatic.com/mp3/d2a61e_328ea642aa0a46acacc9a0688c674b6e.m4a&quot; autoplay&gt;</tw-passagedata><tw-passagedata pid="18" name="Bad End (Red-Arrested)" tags="" position="1127,945" size="100,100">&lt;img class = &quot;img&quot; src=&quot;https://static.wixstatic.com/media/d2a61e_b08c62249f8e454f8ce0f86377e1ec4e~mv2.png&quot; width=&quot;854px&quot; height=&quot;480px&quot;&gt;
+
+[[Replay|Start Screen]] 
 
 &lt;div class=&quot;textbody&quot;&gt;
 At least, that’s what I think my memories said.
@@ -500,17 +502,16 @@ I made a sharp turn right with the hope of an escape route, but was met with not
  
 I looked around and weighed my options, but no matter what I couldn’t find a way out of this. Defeated, I raised my handcuffed hands and surrendered. As I was being taken back into the interrogation room, I could feel the cyan in my mind growing greater, as the confusion it caused clashed with the red of my frustration and anger.
 
-END.
 &lt;/div&gt;
 
- &lt;audio src=&quot;https://static.wixstatic.com/mp3/d2a61e_e3d4b432a2b94d0a8481d4abcb1fb2b0.m4a&quot; autoplay&gt;</tw-passagedata><tw-passagedata pid="19" name="R4" tags="" position="951,1099" size="100,100">&lt;img class = &quot;img&quot; src=&quot;https://static.wixstatic.com/media/d2a61e_c5ea97920c444c28bea6eb361b0b4469~mv2.png&quot; width=&quot;854px&quot; height=&quot;480px&quot;&gt;
+ &lt;audio src=&quot;https://static.wixstatic.com/mp3/d2a61e_e3d4b432a2b94d0a8481d4abcb1fb2b0.m4a&quot; autoplay&gt;</tw-passagedata><tw-passagedata pid="19" name="R4" tags="" position="951,1100" size="100,100">&lt;img class = &quot;img&quot; src=&quot;https://static.wixstatic.com/media/d2a61e_c5ea97920c444c28bea6eb361b0b4469~mv2.png&quot; width=&quot;854px&quot; height=&quot;480px&quot;&gt;
 
 [[Next|R5]]
 
 &lt;div class=&quot;textbody&quot;&gt;
 Nope!
 
-I already established that she wasn’t going to believe me, there was no point in saying anything now. I quickly scanned the room for an alternate escape route, and found a small window high up in one of the corners of the room. With strangely natural movements, I maneuvered myself up the shelves and through the window, landing myself outside of the building. While I couldn’t see the woman as I began to run away, I couldn’t hear her making any movements to catch up with me. While I did think it was strange, I figured I had no time to worry about it. I ran as far as I could from the station, far enough so could no longer hear even the smallest siren of a police car. Eventually, this running brought me in front of an apartment building.
+I already established that she wasn’t going to believe me, there was no point in saying anything now. I quickly scanned the room for an alternate escape route, and found a small window high up in one of the corners of the room. With strangely natural movements, I maneuvered myself up the shelves and through the window, landing myself outside of the building. While I couldn’t see the woman as I began to run away, I couldn’t hear her making any movements to catch up with me. While I did think it was strange, I figured I had no time to worry about it. I ran as far as I could from the station, far enough so I could no longer hear even the slightest siren of a police car. Eventually, this running brought me in front of an apartment building.
 
 I recognized it from the evidence room, it was the scene of the murder of Hugh Gaishu: his room on one of the upper floors. Curious, I entered the building. I wasn’t quite sure what moved me to do this. Maybe it was my memories guiding me once more, or maybe I just wanted to prove my own innocence. Regardless of the reason, I found myself standing in the room I had seen back in the evidence photos.
  
@@ -538,12 +539,12 @@ Eventually however, the colours came back into focus as I realized I was running
 
 &lt;/div&gt;
 
- &lt;audio src=&quot;https://static.wixstatic.com/mp3/d2a61e_1c4142cdc5ba4a10b6fcb07fe308e1fa.m4a&quot; autoplay&gt;</tw-passagedata><tw-passagedata pid="21" name="Loop End (Red)" tags="" position="850,1399" size="100,100">&lt;img class = &quot;img&quot; src=&quot;https://static.wixstatic.com/media/d2a61e_f852bb6839194ca1b73bec7a6c7ad604~mv2.png&quot; width=&quot;854px&quot; height=&quot;480px&quot;&gt;
+ &lt;audio src=&quot;https://static.wixstatic.com/mp3/d2a61e_1c4142cdc5ba4a10b6fcb07fe308e1fa.m4a&quot; autoplay&gt;</tw-passagedata><tw-passagedata pid="21" name="Loop End (Red)" tags="" position="850,1399" size="100,100">&lt;img class = &quot;img&quot; src=&quot;https://static.wixstatic.com/media/d2a61e_e0e848b91e9a4ce89ca0afc2d88aaf7d~mv2.png&quot; width=&quot;854px&quot; height=&quot;480px&quot;&gt;
 
 [[Loop|B1]] 
 
 &lt;div class=&quot;textbody&quot;&gt;
-“I can make it!” I proclaimed as I jumped forward, ready to continue running as soon as hit ground on the next closest building. However, I met no such ground. Out of the corner of my eye I could see my pursuer just fail to grab me as I made the jump. The sight soon moved out of my vision though, as I found myself falling from the ground I had once been on.
+“I can make it!” I proclaimed as I jumped forward, ready to continue running as soon as I hit ground on the next closest building. However, I met no such ground. Out of the corner of my eye I could see my pursuer just fail to grab me as I made the jump. The sight soon moved out of my vision though, as I found myself falling from the ground I had once been on.
  
 Further and further, I fell. Below me was the ever-growing grey of a lower rooftop. Turning my gaze back up, I could see the outline of the man’s black outfit, his turquoise eyes locked onto me as I continued my fall. My own white clothes fluttered as they flew past the city lights, shining in their colour as I rapidly passed them.
  
@@ -551,7 +552,9 @@ Grey, black, white, turquoise, blue, pink, purple. Eventually the colours began 
 
 &lt;/div&gt;
 
- &lt;audio src=&quot;https://static.wixstatic.com/mp3/d2a61e_e3d4b432a2b94d0a8481d4abcb1fb2b0.m4a&quot; autoplay&gt;</tw-passagedata><tw-passagedata pid="22" name="Bad End (Red-Fell)" tags="" position="1050,1398" size="100,100">&lt;img class = &quot;img&quot; src=&quot;https://static.wixstatic.com/media/d2a61e_e1661a3e28ed407faf4a1bc8e6ad5ee2~mv2.png&quot; width=&quot;854px&quot; height=&quot;480px&quot;&gt;
+ &lt;audio src=&quot;https://static.wixstatic.com/mp3/d2a61e_e3d4b432a2b94d0a8481d4abcb1fb2b0.m4a&quot; autoplay&gt;</tw-passagedata><tw-passagedata pid="22" name="Bad End (Red-Fell)" tags="" position="1050,1398" size="100,100">&lt;img class = &quot;img&quot; src=&quot;https://static.wixstatic.com/media/d2a61e_cc88d1c3a8154cad989ae2b2b699004f~mv2.png&quot; width=&quot;854px&quot; height=&quot;480px&quot;&gt;
+
+[[Replay|Start Screen]] 
 
 &lt;div class=&quot;textbody&quot;&gt;
 “I can fight him!” I proclaimed as I turned around to face my pursuer. 
@@ -568,7 +571,6 @@ The last few words he uttered I couldn’t quite hear. By the time he had said t
 
 Pain. A sharp pain rang throughout my body from my chest. Perhaps I had fallen on to an antennae of some sort, or maybe a lightning rod. Either way, I couldn’t tell. The colours before me slowly began to fade, until eventually my own red blinded me.
 
-END.
 &lt;/div&gt;
 
  &lt;audio src=&quot;https://static.wixstatic.com/mp3/d2a61e_e3d4b432a2b94d0a8481d4abcb1fb2b0.m4a&quot; autoplay&gt;</tw-passagedata><tw-passagedata pid="23" name="G2" tags="" position="251,1549" size="100,100">
@@ -577,7 +579,7 @@ END.
 [[No! |G3B]] 
 
 &lt;div class=&quot;textbody&quot;&gt;
-“What are you doing?” I said as I backed away from the policewoman. Her yellow gaze had regained their sharpness, as the grew ever closer to me.
+“What are you doing?” I said as I backed away from the policewoman. Her yellow gaze had regained their sharpness, as they grew ever closer to me.
  
 “I’m going to need you to give me the orb.” She said as she firmly grabbed my arm, her grip reminiscent of the handcuffs that bound me not so long ago.
  
@@ -599,7 +601,7 @@ Azura’s factual words stung me like ice, but I refused to lessen my grip on th
 
 It seemed that she didn’t expect me to resist in such a way, as the policewoman struggled to regain composure. Seeing my chance, I bolted as fast as I could from the window jumping from it and onto the rooftop of a neighbouring building. From behind, I could hear Azura start to make pursuit. Chase ensued as we hopped from the balcony to rooftop, rooftop to fire escape and back to rooftop. Using our entire bodies in full, we traversed the skyline of the city with grace. The chase felt right, as if I had practiced it once before. Eventually the colours of the city blended into lines, as I picked up speed. 
  
-However, all colours came to an abrupt halt as I was tackled from the side by a swift streak of black. Before I could eve n recognize who my assailant was, I could feel my feet leave the ground as I was lifted into the air by him.
+However, all colours came to an abrupt halt as I was tackled from the side by a swift streak of black. Before I could even recognize who my assailant was, I could feel my feet leave the ground as I was lifted into the air by him.
 
 &lt;/div&gt;
 
@@ -615,13 +617,13 @@ However, all colours came to an abrupt halt as I was tackled from the side by a 
 “Enough!” Shouted Azura as she threw her open hand onto the orb, knocking it out of my hand. Before I could even attempt to reach for it again, a bright flash of neon filled my vision. It was a different colour than the whirlwind I had seen come from the device before, but it still filled me with an overwhelming sense of familiarity, nostalgia even.
 
 When the light subsided, Azura and I found before us several holographic displays with the orb of the source. Each of the displays showed a distinctively different scene, but they all ha done commonality. Me. I was in all of the scenes it displayed.
-            As the overlaying images of myself entered my eyes and into my brain, I could feel them pierce the cyan that had been clouding my thought, as I recalled everything that had happened to me. Eveything…
+            As the overlaying images of myself entered my eyes and into my brain, I could feel them pierce the cyan that had been clouding my thought, as I recalled everything that had happened to me. Everything…
  
 “That’s right…” I muttered. “I’ve…I’ve done this all before!”
  
 My words seemed to reach Azura, who diverted her yellow gaze from the displays to me. Not paying mind to her expression of bewilderment, I continued to exclaim.
  
-“Getting, arrested, working with you, fighting for the orb, and seeing this…I’ve done it all before!” my voice got louder and louder with each word. “And I’ve also…run from you, tried to catch the culprit on my own…I’ve chased him so many times…and every time…I fell.”
+“Getting arrested, working with you, fighting for the orb, and seeing this…I’ve done it all before!” my voice got louder and louder with each word. “And I’ve also…run from you, tried to catch the culprit on my own…I’ve chased him so many times…and every time…I fell.”
 
 I took a deep breath as I let out that last word. That’s right, I fell. Multiple times. I’ve seen the colours of the city blend with my own into black more times than I could count. I didn’t know what it meant…but it seemed I was starting to give the detective an idea.
  
@@ -630,7 +632,9 @@ I took a deep breath as I let out that last word. That’s right, I fell. Multip
 &lt;/div&gt;
 
  &lt;audio src=&quot;https://static.wixstatic.com/mp3/d2a61e_c3ce7b68941b47718d00465ad912a8fa.m4a&quot; autoplay&gt;
- </tw-passagedata><tw-passagedata pid="26" name="Bad End (Green)" tags="" position="150,1849" size="100,100">&lt;img class = &quot;img&quot; src=&quot;https://static.wixstatic.com/media/d2a61e_e1661a3e28ed407faf4a1bc8e6ad5ee2~mv2.png&quot; width=&quot;854px&quot; height=&quot;480px&quot;&gt;
+ </tw-passagedata><tw-passagedata pid="26" name="Bad End (Green)" tags="" position="150,1849" size="100,100">&lt;img class = &quot;img&quot; src=&quot;https://static.wixstatic.com/media/d2a61e_cc88d1c3a8154cad989ae2b2b699004f~mv2.png&quot; width=&quot;854px&quot; height=&quot;480px&quot;&gt;
+
+[[Replay|Start Screen]] 
 
 &lt;div class=&quot;textbody&quot;&gt;
 “What!?” I exclaimed as I turned my head to face my night clad assailant. I was met with the smirking, condescending face of Cecil Ghast. Before I could even say his name however, he ripped the orb from my hands with an overwhelming grip.
@@ -645,8 +649,6 @@ The last few words he uttered I couldn’t quite hear. Though I could have sworn
 
 Pain. A sharp pain rang throughout my body from my chest. Perhaps I had fallen on to an antennae of some sort, or maybe a lightning rod. Either way, I couldn’t tell. The colours before me slowly began to fade, until eventually my own red blinded me.
 
-
-END.
 &lt;/div&gt;
 
  &lt;audio src=&quot;https://static.wixstatic.com/mp3/d2a61e_e3d4b432a2b94d0a8481d4abcb1fb2b0.m4a&quot; autoplay&gt;</tw-passagedata><tw-passagedata pid="27" name="G4" tags="" position="348,1850" size="100,100">[[Next|G5]]
@@ -659,7 +661,7 @@ END.
 
 I let Azura’s words sink into the silence as I tried to collect my thoughts. She was right. Ever since the first time I cooperated with her to find the truth, I had been falling back to the same point multiple times. This wasn’t even my first time having this exchange with Azura before. Did that mean I was just destined to fall again? 
 
-Not noticing my strife, Azura took a hand and began to operate the holograms, bringing up new screens with knew images as she spoke.
+Not noticing my strife, Azura took a hand and began to operate the holograms, bringing up new screens with new images as she spoke.
  
 “And if my hunch is correct…this device records the events that happen prior to each time it’s used. If this was Cecil’s, there should be a record of him somewhere here…” 
  
@@ -673,36 +675,31 @@ Azura kept speaking to herself as she examined the records. It didn’t take a d
 
  &lt;audio src=&quot;https://static.wixstatic.com/mp3/d2a61e_c3ce7b68941b47718d00465ad912a8fa.m4a&quot; autoplay&gt;</tw-passagedata><tw-passagedata pid="28" name="G5" tags="" position="348,2000" size="100,100">&lt;img class = &quot;img&quot; src=&quot;https://static.wixstatic.com/media/d2a61e_cc66faca71124a4e9127df50d717013b~mv2.png&quot; width=&quot;854px&quot; height=&quot;480px&quot;&gt;
 
-[[Your mine! | Loop End (Green)]]
+[[You&#39;re mine! | Loop End (Green)]]
 &lt;br&gt;
 [[I won&#39;t fail! |True End (Green)]]
+
 &lt;div class=&quot;textbody&quot;&gt;
-“No!” I bellowed as I tried to wrangle my arm out of hers. Pushing and pulling, back and forth, we struggled for the device I kept an ever-firm grip on.
+“We need to chase him.” I said as I grabbed the orb and sprinted towards the window.
  
-“Enough!” Shouted Azura as she threw her open hand onto the orb, knocking it out of my hand. Before I could even attempt to reach for it again, a bright flash of neon filled my vision. It was a different colour than the whirlwind I had seen come from the device before, but it still filled me with an overwhelming sense of familiarity, nostalgia even.
-
-When the light subsided, Azura and I found before us several holographic displays with the orb of the source. Each of the displays showed a distinctively different scene, but they all ha done commonality. Me. I was in all of the scenes it displayed.
-            As the overlaying images of myself entered my eyes and into my brain, I could feel them pierce the cyan that had been clouding my thought, as I recalled everything that had happened to me. Eveything…
+“Wait, what are you doing?” Azura shouted. “He’s probably too far away to find by now! We should take this back to the station for now.”
  
-“That’s right…” I muttered. “I’ve…I’ve done this all before!”
+I found myself cracking a grin as I jumped from the balcony to the neighbouring building.
  
-My words seemed to reach Azura, who diverted her yellow gaze from the displays to me. Not paying mind to her expression of bewilderment, I continued to exclaim.
+“It’ll be fine!” I shouted back enthusiastically. “This isn’t exactly first rodeo after all.”
  
-“Getting, arrested, working with you, fighting for the orb, and seeing this…I’ve done it all before!” my voice got louder and louder with each word. “And I’ve also…run from you, tried to catch the culprit on my own…I’ve chased him so many times…and every time…I fell.”
-
-I took a deep breath as I let out that last word. That’s right, I fell. Multiple times. I’ve seen the colours of the city blend with my own into black more times than I could count. I didn’t know what it meant…but it seemed I was starting to give the detective an idea.
- 
-“I see…I think I understand now” She whispered as she calmly walked up to the displays.
+From there, it was quick. I could hear Azura follow from behind me, as it seems she understood what I meant. Chase ensued as we hopped from the balcony to rooftop, rooftop to fire escape and back to rooftop. Using our entire bodies in full, we traversed the skyline of the city with grace. Eventually the colours of the city blended into lines, as I picked up speed. A familiar sight to me now, but this time it was different. I knew what I was doing, and I knew where my target was heading. Navigating the skyline for what felt like a hundredth time, I took shortcut after familiar shortcut to close the distance between me and my target.
+As the colours slowly came back into focus, I could see Cecil across from me on a neighbouring building. The chase was coming to a close as we were both running out of ground to continue it on. A familiar position, and a familiar fall before us. This though…this time…
 
 &lt;/div&gt;
 
  &lt;audio src=&quot;https://static.wixstatic.com/mp3/d2a61e_8658b1a551f24a5d9fbb6d6a4f7095c2.m4a&quot; autoplay&gt;
- </tw-passagedata><tw-passagedata pid="29" name=" Loop End (Green)" tags="" position="273,2150" size="100,100">&lt;img class = &quot;img&quot; src=&quot;https://static.wixstatic.com/media/d2a61e_f852bb6839194ca1b73bec7a6c7ad604~mv2.png&quot; width=&quot;854px&quot; height=&quot;480px&quot;&gt;
+ </tw-passagedata><tw-passagedata pid="29" name=" Loop End (Green)" tags="" position="273,2150" size="100,100">&lt;img class = &quot;img&quot; src=&quot;https://static.wixstatic.com/media/d2a61e_e0e848b91e9a4ce89ca0afc2d88aaf7d~mv2.png&quot; width=&quot;854px&quot; height=&quot;480px&quot;&gt;
 
 [[Loop|B1]] 
 
 &lt;div class=&quot;textbody&quot;&gt;
-“You’re mine!” I proclaimed as I jumped forward, hand extended, ready to restrain the man I had been chasing. However, my hand met no such target. Out of corner my eye I could see a smirking Cecil who had gracefully turned himself to escape my grasp. The sight soon moved out of my vision though, as I found myself falling from the ground I had once been on.
+“You’re mine!” I proclaimed as I jumped forward, hand extended, ready to restrain the man I had been chasing. However, my hand met no such target. Out of the corner of my eye I could see a smirking Cecil who had gracefully turned himself to escape my grasp. The sight soon moved out of my vision though, as I found myself falling from the ground I had once been on.
  
 Further and further, I fell. Below me was the ever-growing grey of a lower rooftop. Turning my gaze back up, I could see the outline of Cecil’s black outfit, receding from the scene, Azura’s blue clothes standing still, as her topaz eyes failed to chase their target and found themselves on me. My own white clothes fluttered as they flew past the city lights, shining in their colour as I rapidly passed them.
  
@@ -710,9 +707,9 @@ Grey, black, white, yellow, blue, pink, purple. Eventually the colours began to 
 
 &lt;/div&gt;
 
- &lt;audio src=&quot;https://static.wixstatic.com/mp3/d2a61e_e3d4b432a2b94d0a8481d4abcb1fb2b0.m4a&quot; autoplay&gt;</tw-passagedata><tw-passagedata pid="30" name="True End (Green)" tags="" position="424,2150" size="100,100">&lt;img class = &quot;img&quot; src=&quot;https://static.wixstatic.com/media/d2a61e_f852bb6839194ca1b73bec7a6c7ad604~mv2.png&quot; width=&quot;854px&quot; height=&quot;480px&quot;&gt;
+ &lt;audio src=&quot;https://static.wixstatic.com/mp3/d2a61e_e3d4b432a2b94d0a8481d4abcb1fb2b0.m4a&quot; autoplay&gt;</tw-passagedata><tw-passagedata pid="30" name="True End (Green)" tags="" position="424,2150" size="100,100">&lt;img class = &quot;img&quot; src=&quot;https://static.wixstatic.com/media/d2a61e_b7b70afaeed54595b4fc3acb098a1003~mv2.png&quot; width=&quot;854px&quot; height=&quot;480px&quot;&gt;
 
-
+[[Replay|Start Screen]] 
 
 &lt;div class=&quot;textbody&quot;&gt;
 “I won’t fail!” I proclaimed as I jumped from one building to another. Normally, this would’ve been where I started my eternal fall, but not this time. This time, I jumped behind Cecil rather than for him. Not giving him any time to react, I put all of my force into my arms as I thrust them forward, striking the culprit’s night-clad back. As quick as the colours had once blended for me, I could see Cecil’s coat become part of the skyline as he fell towards the rooftop below.
@@ -721,7 +718,7 @@ Grey, black, white, yellow, blue, pink, purple. Eventually the colours began to 
  
 “It’s fine, he won’t die from that; I would know.”
  
-Eventually, we made our way down to the rooftop where our culprit lay, barely conscious. It seemed he was in better shape than I was when I fell, perhaps because of of his physical enhancements. Seizing her chance, Azura promptly walked up to Cecil, sat him up, and placed a pair of handcuffs on him.
+Eventually, we made our way down to the rooftop where our culprit lay, barely conscious. It seemed he was in better shape than I was when I fell, perhaps because of his physical enhancements. Seizing her chance, Azura promptly walked up to Cecil, sat him up, and placed a pair of handcuffs on him.
  
 “Cecil Ghast, you are under arrest for multiple felonies, including the murder of Hugh Gaishu. You have the right to remain silent, anything you say can and will be use against you in a court of law…” As Azura recited a speech I had only seen on TV before, I noticed her gaze meet my own. 
 
@@ -729,8 +726,6 @@ For the first time, her yellow eyes seemed…friendly. Our eyes may had locked m
  
 Returning a slight smile, I shifted my own gaze to the cityscape surrounding me. Blue, pink, purple. Skyscrapers, streets and signs. The colours making up this city were indeed quite beautiful. Though for whatever reason, they looked different in that moment. For the first time in a long while, I let the colours settle into place and sit still, as I took them in with my own light blue eyes.
 
-
-END.
 &lt;/div&gt;
 
  &lt;audio src=&quot;https://static.wixstatic.com/mp3/d2a61e_e3d4b432a2b94d0a8481d4abcb1fb2b0.m4a&quot; autoplay&gt;</tw-passagedata></tw-storydata>
